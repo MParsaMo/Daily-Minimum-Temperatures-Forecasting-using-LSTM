@@ -20,7 +20,8 @@ Minimum Temperature (°C)
 
 ---
 
-echnologies Used
+technologies Used
+
 Python 3.x
 
 TensorFlow / Keras
@@ -36,6 +37,7 @@ Scikit-learn
 ---
 
 🚀 Project Workflow
+
 1. Data Preprocessing
 Load the dataset using Pandas.
 
@@ -69,10 +71,12 @@ Plot original vs. predicted values.
 ---
 
 📈 Results Example
+
 After training, the model generates predictions that follow the general trend of the actual temperature values.
 
 ---
 📄 How to Run
+
 1. Clone the Repository
 git clone https://github.com/MParsaMo/temperature-forecast-lstm.git
 cd temperature-forecast-lstm
@@ -90,6 +94,7 @@ python temperature_forecast.py
 ---
 
 🔑 Key Parameters
+
 | Parameter           | Value                        |
 | ------------------- | ---------------------------- |
 | Previous Time Steps | 5                            |
@@ -101,11 +106,13 @@ python temperature_forecast.py
 ---
 
 📊 Performance Metric
+
 Root Mean Squared Error (RMSE) is used to evaluate model performance.
 
 ---
 
 📌 Notes & Next Steps
+
 ✅ You can try:
 
 Tuning the number of previous time steps.
